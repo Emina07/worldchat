@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Ensure you have imported Roboto as described earlier */
+}
+
+/* Additional styling for buttons */
+button {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+}
